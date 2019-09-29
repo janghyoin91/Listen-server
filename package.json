@@ -1,22 +1,26 @@
 {
-  "name": "listen-server",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.19.0",
-    "cors": "^2.8.5",
-    "express": "^4.17.1"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.6.2",
-    "@babel/polyfill": "^7.6.0",
-    "@babel/preset-env": "^7.6.2",
-    "@babel/register": "^7.6.2"
-  }
+	"name": "listen-server",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon start.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"body-parser": "^1.19.0",
+		"cors": "^2.8.5",
+		"express": "^4.17.1",
+		"mysql2": "^1.7.0",
+		"nodemon": "^1.19.2",
+		"sequelize": "^5.19.1"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.6.2",
+		"@babel/polyfill": "^7.6.0",
+		"@babel/preset-env": "^7.6.2",
+		"@babel/register": "^7.6.2"
+	}
 }

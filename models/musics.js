@@ -1,6 +1,6 @@
 module.exports = (sequelize, DataTypes) => {
-	const albums = sequelize.define(
-		'albums',
+	const musics = sequelize.define(
+		'musics',
 		{
 			id: {
 				type: DataTypes.INTEGER,
