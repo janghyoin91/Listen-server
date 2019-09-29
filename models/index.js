@@ -6,7 +6,7 @@ const sequelize = new Sequelize(database, username, password, dbConfig);
 
 const db = { sequelize, Sequelize };
 
-db.albums = require('./users')(sequelize, Sequelize);
-db.musics = require('./boards')(sequelize, Sequelize);
+db.albums = require('./albums')(sequelize, Sequelize);
+db.musics = require('./musics')(sequelize, Sequelize);
 
 module.exports = db;
