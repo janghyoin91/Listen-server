@@ -14,6 +14,15 @@ module.exports = (sequelize, DataTypes) => {
 			},
 			cover: {
 				type: DataTypes.STRING
+			},
+			released: {
+				type: DataTypes.STRING
+			},
+			genre: {
+				type: DataTypes.STRING
+			},
+			company: {
+				type: DataTypes.STRING
 			}
 		},
 		{
